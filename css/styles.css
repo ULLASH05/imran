@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+* {
+    margin: 0;
+    font-family: font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+#testimonial {
+    background: #70a1ff;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    max-width:1140px;
+    margin: auto;
+}
+.section-padding {
+    padding: 60px 0;
+}
+.img-thump {
+    text-align: center;
+    margin: 15px;
+}
+.img-thump img {
+    width: inherit !important;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+h2,h3,a,p{
+    color:black;
+}
+
+.testimonial-item{
+    background: #a4b0be;
+    border-radius: 10px;
+    padding: 40px;
+}
+.star-icon span{
+    color: #70a1ff;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span{
+    border: 1px solid #fff;
+    zoom: 2;
+}
